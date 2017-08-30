@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Lista()
+comment1.params=n
+comment1.target=void\ agregar(int)
+comment2.params=
+comment2.target=void\ imprimir()
+comment3.params=n
+comment3.target=void\ agregar_al_inicio(int)
+comment4.params=
+comment4.target=void\ imprimir_inverso()
+comment5.params=n
+comment5.target=void\ imprimir(int)
+comment6.params=
+comment6.target=void\ borrarInicio()
+comment7.params=lista
+comment7.target=boolean\ comparar(Lista)
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9
