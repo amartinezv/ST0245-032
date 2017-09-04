@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=A\ n
+comment0.target=int\ ArraySum(int[],\ int)
+comment1.params=n
+comment1.target=long\ tomarElTiempoParaArraysum(int)
+comment2.params=A\ n
+comment2.target=int\ ArrayMax(int[],\ int)
+comment3.params=n
+comment3.target=long\ tomarElTiempoParaArraymax(int)
+comment4.params=n
+comment4.target=int\ Fibonnacci(int)
+comment5.params=n
+comment5.target=long\ tomarEltiempoParaFibonacci(int)
+comment6.params=n
+comment6.target=int[]\ crearUnArregloAleatorio(int)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
