@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=int\ factorial(int)
+comment1.params=n
+comment1.target=int\ fibonacci(int)
+comment2.params=bunnies
+comment2.target=int\ bunnyEars(int)
+comment3.params=bunnies
+comment3.target=int\ bunnyEars2(int)
+comment4.params=rows
+comment4.target=int\ triangle(int)
+numComments=5

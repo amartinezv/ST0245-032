@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=start\ nums\ target
+comment0.target=boolean\ groupSum6(int,\ int[],\ int)
+comment1.params=start\ nums\ target
+comment1.target=boolean\ groupNoAdj(int,\ int[],\ int)
+comment2.params=start\ nums\ target
+comment2.target=boolean\ groupSum5(int,\ int[],\ int)
+comment3.params=start\ nums
+comment3.target=boolean\ checkOne(int,\ int[])
+comment4.params=start\ nums\ target
+comment4.target=boolean\ groupSumClump(int,\ int[],\ int)
+comment5.params=nums
+comment5.target=void\ altArray(int[])
+comment6.params=nums
+comment6.target=boolean\ splitArray(int[])
+comment7.params=nums\ index\ sum1\ sum2
+comment7.target=boolean\ recArray(int[],\ int,\ int,\ int)
+numComments=8
