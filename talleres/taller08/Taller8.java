@@ -1,4 +1,7 @@
-
+/**
+ * Alejandra Martinez Vega
+ * Sarai Mejia 
+ */
 import java.util.*;
 
 public class Taller8
