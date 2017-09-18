@@ -1,0 +1,56 @@
+
+public class Array2
+{
+    public boolean only14(int[] nums) {
+        int cont = 0;
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] == 1 || nums[i] == 4)cont++;
+        }
+        if(cont == nums.length)return true;
+        return false;
+    }
+
+    public boolean isEverywhere(int[] nums, int val) {
+        for(int i = 0; i < nums.length-1; i++){
+            if(nums[i] != val && nums[i+1] != val) return false;
+        }
+        return true;
+    }
+
+    public int matchUp(int[] nums1, int[] nums2) {
+        int cont = 0;
+        for(int i = 0; i < nums1.length; i++){
+            int a = nums1[i] - nums2[i];
+            if(Math.abs(a) <= 2 && Math.abs(a) > 0 )cont++;
+        }
+        return cont;
+    }
+
+    public boolean has12(int[] nums) {
+        boolean comprovar = false;
+
+        for(int i = 0; i < nums.length; i++)
+        {
+            if (nums[i] == 1)
+                comprovar = true;
+            if (comprovar && nums[i] == 2)
+                return true;
+        }
+        return false;
+    }
+
+    public boolean haveThree(int[] nums) {
+        int cont3 = 0;
+        if (nums.length < 5) 
+            return false;
+        for (int i = 0; i < nums.length-1; i++){
+            if (nums[i] == 3 && nums[i+1] != 3)
+                cont3++; 
+        }
+        if (nums[nums.length-1] == 3 && nums[nums.length-2] != 3)
+            cont3++; 
+
+        return cont3 == 3;
+
+    }
+}
